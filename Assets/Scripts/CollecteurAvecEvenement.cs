@@ -7,6 +7,8 @@ public class CollecteurAvecEvenement : MonoBehaviour
 {
     public UnityEvent OnCollecterPoint;
 
+       public UnityEvent ExempleEvenement;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Monnaie"))
